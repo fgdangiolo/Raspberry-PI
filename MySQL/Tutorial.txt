@@ -1,0 +1,13 @@
+CONNECTING. Connecting to MySQL for the first time
+
+mysql -p -u root
+
+Enter the Password and then will be in to the prompt mysql>prompt
+
+CREATE A USER
+
+create user ‘username’@’localhost’ identified by ‘password’;
+
+CREATE A DATABASE
+
+create database my_databasename;
