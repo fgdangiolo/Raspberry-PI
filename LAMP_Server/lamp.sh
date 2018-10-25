@@ -28,5 +28,14 @@ echo "======================"
 
 # Install PHP
 sudo apt-get install php libapache2-mod-php -y
+sudo service apache2 restart
+
+echo "======================"
+echo "Installing MySQL..."
+echo "======================"
+
+# Install MySQL
+sudo apt-get install mysql-server php-mysql -y
+sudo service apache2 restart
 
 # MYSQL: sudo mysql -u root -p
