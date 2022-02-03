@@ -33,6 +33,7 @@ sudo /bin/systemctl start grafana-server
 
 #Grafana is now running on the machine and is accessible from any device on the local network.
 
+echo "==============================================================================================================="
 echo "Open a browser and go to http://<ip address>:3000, where the IP address is the address that you used to connect to the Raspberry Pi earlier. You’re greeted with the Grafana login page."
 
 echo "Log in to Grafana with the default username admin, and the default password admin."
@@ -40,4 +41,6 @@ echo "Log in to Grafana with the default username admin, and the default passwor
 echo "Change the password for the admin user when asked.
 
 Congratulations! Grafana is now running on your Raspberry Pi. If the Raspberry Pi is ever restarted or turned off, Grafana will start up whenever the machine regains power."
+
+echo "==============================================================================================================="
 
