@@ -1,4 +1,6 @@
 #!/bin/bash
 
-
-/opt/vc/bin/vcgencmd measure_temp
+echo "***********************************"
+echo "La temperatura dentro de la RPi es:"
+vcgencmd measure_temp
+echo "***********************************"
