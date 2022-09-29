@@ -25,3 +25,10 @@ When you in to the index.html, you can edit this file like:
 ### For copy from a PC to another PC:
 
 scp -r "file_name" pepe@ip: 
+
+### For permissions
+in the folder /var/www, execute:
+
+/var/www sudo chown pi: hmtl
+
+Note: chown (changes owner)
